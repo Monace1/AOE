@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ForestFireSPC" type="ForestFire" techname="Forest Fire SPC">
+	<placement forceonmap="1" matchtype="Bamboo Tree">unit</placement>
+	<activetime>-1</activetime>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<icon>god power firestorm icon</icon>
+	<usedicon>god power firestorm icon done</usedicon>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ForestFireBirth</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" loop="1" positional="1">ForestFireExist</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<minsearchradius>3.0</minsearchradius>
+	<maxsearchradius>5.0</maxsearchradius>
+	<minnumtreestocatchonfire>10</minnumtreestocatchonfire>
+	<maxnumtreestocatchonfire>15</maxnumtreestocatchonfire>
+	<burnlength>15.0</burnlength>
+	<burnfadelength>15.0</burnfadelength>
+	<maxnumtreesburnt>100</maxnumtreesburnt>
+	<firesfx>SFX A generic fire medium</firesfx>
+	<radius>30.0</radius>
+	<forestfireattack>Forest Fire Attack</forestfireattack>
+	<forestfiretreesearchradius>6.0</forestfiretreesearchradius>
+	<fastesttreeattacktime>0.5</fastesttreeattacktime>
+	<longesttreeattacktime>2.0</longesttreeattacktime>
+	<abstractattacktargettype>Bamboo Tree</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.80</basedamagepercentunit>
+		<basedamagepercentvillager>0.50</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.90</basedamagepercentbuilding>
+		<minhpdamageunit>500</minhpdamageunit>
+		<minhpdamagevillager>600</minhpdamagevillager>
+		<minhpdamagebuilding>2000</minhpdamagebuilding>
+		<maxhpdamageunit>2000</maxhpdamageunit>
+		<maxhpdamagevillager>800</maxhpdamagevillager>
+		<maxhpdamagebuilding>2000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<abstracttype swapto="Bamboo Tree Burning" blendtexture="World C Bamboo Tree Burnt">Bamboo Tree</abstracttype>
+	<firesfx>Forest Fire SFX</firesfx>
+</power>

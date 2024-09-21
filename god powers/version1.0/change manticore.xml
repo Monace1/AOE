@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ChangeManticore" type="swapunit" techname="Change Manticore">
+	<activetime>0.6</activetime>
+	<radius>8.0</radius>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="8" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ChangeUnit</soundset>
+	<placement forceonmap="1">full</placement>
+	<convertusingminmax minswapamount="20" maxswapamount="25"></convertusingminmax>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.4</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
+		<minhpdamageunit>450</minhpdamageunit>
+		<minhpdamagevillager>250</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>10000</maxhpdamageunit>
+		<maxhpdamagevillager>450</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<abstracttype swapto="Manticore">HumanSoldier</abstracttype>
+	<abstracttype swapto="Manticore">AbstractVillager</abstracttype>
+	<abstracttype swapto="Manticore">MythUnit</abstracttype>
+	<abstracttype swapto="Manticore">Pig</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<sfx>Curse SFX</sfx>
+	<swapenemyonly></swapenemyonly>
+	<retainhitpointratio></retainhitpointratio>
+	<hideonactivegplist></hideonactivegplist>
+	<messagealertplayerrelation>player</messagealertplayerrelation>
+	<icon>god power curse icon</icon>
+	<usedicon>god power curse icon done</usedicon>
+</power>

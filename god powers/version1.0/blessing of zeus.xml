@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="BlessingofZeus" type="swapunit" techname="Blessing of Zeus">
+	<activetime>0.1</activetime>
+	<radius>1.0</radius>
+	<placement forceonmap="1" matchtype="Arkantos" ally="">unit</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">SOOPBirth</soundset>
+	<overallchance>1.0</overallchance>
+	<abstracttype swapto="Arkantosman">Arkantos</abstracttype>
+	<sfx>Osiris SFX</sfx>
+	<mutate></mutate>
+	<unittarget></unittarget>
+	<icon>God Power Arkantosman Icon</icon>
+	<usedicon>God Power Arkantosman Icon done</usedicon>
+</power>

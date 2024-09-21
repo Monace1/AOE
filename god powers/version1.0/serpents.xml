@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="PlagueofSerpents" type="TempUnit" techname="serpents">
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="6" delay="0.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="0.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="6" delay="1.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="1.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="6" delay="2.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="2.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="9" delay="3.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="9" delay="3.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="4.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="4.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="5.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="5.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="6.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<createunit quantity="1" radius="8" delay="6.0" waterprotoid="Sea Snake">Serpent</createunit>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="5" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<placement forceonmap="1">full</placement>
+	<icon>god power snake plague icon</icon>
+	<usedicon>god power snake plague icon done</usedicon>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+</power>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WalkingWoods" type="swapunit" techname="Walking Woods">
+	<activetime>0.6</activetime>
+	<rangeindicatorprotoid radius="6.0" indicatorcount="6" speed="0.2">UI Range Indicator Norse SFX</rangeindicatorprotoid>
+	<radius>6.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">WalkingWoodsBirth</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll" positional="">WalkingWoods</soundset>
+	<placement forceonmap="1" matchtype="Tree">full</placement>
+	<powerplayerrelation>all</powerplayerrelation>
+	<overallchance>0.75</overallchance>
+	<abstracttype swapto="Walking Woods Pine">Pine</abstracttype>
+	<abstracttype swapto="Walking Woods Palm">Palm</abstracttype>
+	<abstracttype swapto="Walking Woods Oak">Oak Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Oak">Oak Autumn</abstracttype>
+	<abstracttype swapto="Walking Woods Pine Snow">Pine Snow</abstracttype>
+	<abstracttype swapto="Walking Woods Pine">Pine Dead</abstracttype>
+	<abstracttype swapto="Walking Woods Savannah">Savannah Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Marsh">Marsh Tree</abstracttype>
+	<abstracttype swapto="Walking Woods Tundra">Tundra Tree</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<convertunitstogodpowerplayer></convertunitstogodpowerplayer>
+	<convertusingminmax minswapamount="7" maxswapamount="8">Dummy</convertusingminmax>
+	<icon>god power walking woods icon</icon>
+	<usedicon>god power walking woods icon done</usedicon>
+</power>

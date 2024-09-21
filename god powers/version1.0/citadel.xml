@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Citadel" type="swapunit" techname="Citadel">
+	<activetime>0.1</activetime>
+	<radius>3.0</radius>
+	<placement forceonmap="1" matchtype="Settlement Level 1" ally="">unit</placement>
+	<powerplayerrelation>ally</powerplayerrelation>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">CitadelBirth</soundset>
+	<overallchance>1.0</overallchance>
+	<abstracttype swapto="Citadel Center">Settlement Level 1</abstracttype>
+	<sfx>Citadel SFX</sfx>
+	<mutate></mutate>
+	<playbirthaftermutate></playbirthaftermutate>
+	<unittarget></unittarget>
+	<icon>god power citadel icon</icon>
+	<usedicon>god power citadel icon done</usedicon>
+</power>

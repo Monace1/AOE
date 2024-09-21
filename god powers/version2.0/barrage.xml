@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Barrage" type="meteor" techname="Barrage">
+	<builduptime>0.0</builduptime>
+	<activetime>10.0</activetime>
+	<unitaitype>Meteor</unitaitype>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="5" speed="0.2">UI Range Indicator Chinese SFX</rangeindicatorprotoid>
+	<radius>8.0</radius>
+	<placement forceonmap="1">full</placement>
+	<meteor>barrage</meteor>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<firststrikesoundset>BarrageHit</firststrikesoundset>
+	<strikesoundset>BarrageHit</strikesoundset>
+	<fasteststriketime>1.00</fasteststriketime>
+	<sloweststriketime>1.5</sloweststriketime>
+	<abstractattacktargettype>LogicalTypeValidMeteorTarget</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>1.00</basedamagepercentunit>
+		<basedamagepercentvillager>0.00</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.00</basedamagepercentbuilding>
+		<minhpdamageunit>500</minhpdamageunit>
+		<minhpdamagevillager>80</minhpdamagevillager>
+		<minhpdamagebuilding>500</minhpdamagebuilding>
+		<maxhpdamageunit>800</maxhpdamageunit>
+		<maxhpdamagevillager>100</maxhpdamagevillager>
+		<maxhpdamagebuilding>800</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.00</basedamagepercentunit>
+		<basedamagepercentvillager>0.00</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.00</basedamagepercentbuilding>
+		<minhpdamageunit>0</minhpdamageunit>
+		<minhpdamagevillager>0</minhpdamagevillager>
+		<minhpdamagebuilding>0</minhpdamagebuilding>
+		<maxhpdamageunit>0</maxhpdamageunit>
+		<maxhpdamagevillager>0</maxhpdamagevillager>
+		<maxhpdamagebuilding>0</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<accuracy>1.00</accuracy>
+	<unitthrowchance>0.00</unitthrowchance>
+	<minthrowdistance>6.0</minthrowdistance>
+	<maxthrowdistance>10.0</maxthrowdistance>
+	<minthrowheight>1.0</minthrowheight>
+	<maxthrowheight>2.0</maxthrowheight>
+	<minthrowvelocity>10.0</minthrowvelocity>
+	<maxthrowvelocity>20.0</maxthrowvelocity>
+	<camerashake duration="0.50" strength="0.125"></camerashake>
+	<icon>god power barrage icon</icon>
+	<usedicon>god power barrage icon done</usedicon>
+</power>

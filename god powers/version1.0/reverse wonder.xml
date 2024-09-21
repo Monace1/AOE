@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ReverseWonder" type="reversetime" techname="reverse wonder">
+	<placement forceonmap="1" enemy="" matchtype="LogicalTypeValidReverseWonderTarget">unit</placement>
+	<activetime>0.20</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Deconstruction</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<cracksoundset>DeconstructionDestruction</cracksoundset>
+	<crackintervalmin>2.0 </crackintervalmin>
+	<crackintervalmax>4.0 </crackintervalmax>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<recharges>1 </recharges>
+	<rechargetime>0 </rechargetime>
+</power>

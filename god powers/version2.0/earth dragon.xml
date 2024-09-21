@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="EarthDragon" type="Carnivora" techname="Earth Dragon">
+	<activetime>-1</activetime>
+	<unitproto>Earth Dragon</unitproto>
+	<unitbaseproto>Earth Dragon Hole</unitbaseproto>
+	<unitwaterproto>Earth Dragon</unitwaterproto>
+	<unitwaterbaseproto>Earth Dragon Hole</unitwaterbaseproto>
+	<placement forceonmap="1">full</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">EarthDragonBirth</soundset>
+	<recharges>2</recharges>
+	<rechargetime>180</rechargetime>
+</power>

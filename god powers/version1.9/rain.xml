@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Rain" type="rain" techname="Rain">
+	<activetime>60.0</activetime>
+	<radius>12.0</radius>
+	<powerblocker>-1</powerblocker>
+	<minimapeventtime sendalertto="none">0.0</minimapeventtime>
+	<fasteststriketime>1.0</fasteststriketime>
+	<sloweststriketime>2.0</sloweststriketime>
+	<placement>skip</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">LightThunder</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<sfx>Rain</sfx>
+	<rainspotproto>AbstractSettlement</rainspotproto>
+	<smallsfx>Rain Small</smallsfx>
+	<smallrainspotproto>AbstractFarm</smallrainspotproto>
+	<gatherrate rate="2.0">farm</gatherrate>
+	<powerplayerrelation>any</powerplayerrelation>
+	<bonusmodifierally>1.5f</bonusmodifierally>
+	<icon>god power rain icon</icon>
+	<usedicon>god power rain icon done</usedicon>
+</power>

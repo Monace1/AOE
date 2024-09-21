@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Dwarven Tunnel" type="shifting sands" techname="Dwarven Tunnel">
+	<activetime>30.0</activetime>
+	<startsound>tornadobirth.wav</startsound>
+	<unitspersecond>0.3</unitspersecond>
+	<inportal>Tunnel</inportal>
+	<outportal>Tunnel</outportal>
+</power>

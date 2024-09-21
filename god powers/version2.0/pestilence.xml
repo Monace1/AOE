@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Pestilence" type="Pestilence" techname="Pestilence">
+	<placement forceonmap="1" enemy="">free</placement>
+	<activetime>50.0</activetime>
+	<radius>30.0f</radius>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<rangeindicatorprotoid radius="30.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<rescaninterval>5.0f</rescaninterval>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">PestilenceBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<abstracttype>
+		<type>AbstractFortress</type>
+		<sfxtype1>Pestilence SFX2</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Barracks</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Archery Range</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Stable</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Academy</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Dock</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Siege Camp</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Longhouse</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Temple</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Barracks Atlantean</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Counter Building</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Barracks Chinese</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<abstracttype>
+		<type>Stable Chinese</type>
+		<sfxtype1>Pestilence SFX1</sfxtype1>
+	</abstracttype>
+	<icon>god power pestilence icon</icon>
+	<usedicon>god power pestilence icon done</usedicon>
+</power>

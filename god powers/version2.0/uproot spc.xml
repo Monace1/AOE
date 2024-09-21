@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="UprootSPC" type="Uproot" techname="Uproot SPC">
+	<activetime>10</activetime>
+	<placement forceonmap="1" enemy="" matchtype="LogicalTypeValidBoltTarget">Bolder Wall Asian</placement>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<rescaninterval>5.0f</rescaninterval>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">UprootBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<abstracttype>
+		<type>Bolder Wall</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Bolder Wall Asian</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<icon>god power uproot icon</icon>
+	<usedicon>god power uproot icon done</usedicon>
+</power>

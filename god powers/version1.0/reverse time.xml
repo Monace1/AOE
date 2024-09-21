@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Deconstruction" type="reversetime" techname="reverse time">
+	<placement forceonmap="1" enemy="" matchtype="LogicalTypeValidDeconstructionTarget">unit</placement>
+	<activetime>-1 </activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">Deconstruction</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<cracksoundset>DeconstructionDestruction</cracksoundset>
+	<crackintervalmin>2.0 </crackintervalmin>
+	<crackintervalmax>4.0 </crackintervalmax>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<recharges>1 </recharges>
+	<rechargetime>240 </rechargetime>
+</power>

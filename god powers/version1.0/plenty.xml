@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Plenty" type="Plenty" techname="plenty">
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Plenty Vault</createunit>
+	<placement forceonmap="1" losprotounit="Plenty Vault">full</placement>
+	<placementprotounitid>Plenty Vault</placementprotounitid>
+	<expandcheckplacementhull></expandcheckplacementhull>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">PlentyBirth</soundset>
+	<attachproto>Plenty Flare</attachproto>
+	<gatherrate rate="15.0f">wood</gatherrate>
+	<gatherrate rate="15.0f">food</gatherrate>
+	<gatherrate rate="15.0f">gold</gatherrate>
+	<burstdelay>5.0f</burstdelay>
+	<icon>god power plenty icon</icon>
+	<usedicon>god power plenty icon done</usedicon>
+</power>

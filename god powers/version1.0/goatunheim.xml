@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Goatunheim" type="swapunit" techname="goatunheim">
+	<activetime>0.6</activetime>
+	<radius>20.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">RagnarokBirth</soundset>
+	<placement forceonmap="1">skip</placement>
+	<powerplayerrelation>all</powerplayerrelation>
+	<overallchance>1.0</overallchance>
+	<global></global>
+	<abstracttype swapto="Goat">Military</abstracttype>
+	<abstracttype swapto="Goat">AbstractVillager</abstracttype>
+	<abstracttype swapto="Goat">Huntable</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<sfx>Ragnorok SFX</sfx>
+	<swapselfonly></swapselfonly>
+	<icon>Animal Goat icon 64</icon>
+	<usedicon>Animal Goat icon 64</usedicon>
+</power>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Prosperity" type="Prosperity" techname="Prosperity">
+	<activetime>50.0</activetime>
+	<placement>skip</placement>
+	<fasteststriketime>2.0</fasteststriketime>
+	<sloweststriketime>4.0</sloweststriketime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ProsperityBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<largesfxprotoid>Increase Prosperity Large</largesfxprotoid>
+	<smallsfxprotoid>Increase Prosperity Small</smallsfxprotoid>
+	<gatherrate rate="1.8">gold</gatherrate>
+	<abstracttype>GoldDropsite</abstracttype>
+	<icon>god power prosperity icon</icon>
+	<usedicon>god power prosperity icon done</usedicon>
+</power>

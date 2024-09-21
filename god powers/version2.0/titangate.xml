@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TitanGate" type="TitanGate" techname="TitanGate">
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Titan Gate</createunit>
+	<placement forceonmap="1" losprotounit="Titan Gate">full</placement>
+	<placementprotounitid>Titan Gate</placementprotounitid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">PlentyBirth</soundset>
+	<icon>improvement secrets of the titans icons 64</icon>
+	<usedicon>improvement secrets of the titans icons 64</usedicon>
+</power>

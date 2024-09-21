@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WaterDamage" type="tempunit" techname="Water Damage">
+	<activetime>-1</activetime>
+	<placement forceonmap="1">skip</placement>
+	<createunit quantity="1" radius="2.0" delay="0.0" norotate="">Big Splash</createunit>
+	<hideonactivegplist></hideonactivegplist>
+	<messagealertplayerrelation>player</messagealertplayerrelation>
+	<minimapeventtime sendalertto="ally">0.01</minimapeventtime>
+	<icon>god power nidhogg icon</icon>
+	<usedicon>god power nidhogg icon done</usedicon>
+</power>

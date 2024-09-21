@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Vortex" type="Vortex" techname="vortex">
+	<activetime>-1 </activetime>
+	<initialdelay>0.0 </initialdelay>
+	<uniteffecttime>1.0 </uniteffecttime>
+	<dropintervalmin>0.1 </dropintervalmin>
+	<dropintervalmax>0.5 </dropintervalmax>
+	<ignoreradius>20.0 </ignoreradius>
+	<vortexstartproto>Vortex start</vortexstartproto>
+	<vortexfinishproto>Vortex finish</vortexfinishproto>
+	<vortexstartlinkedproto>Vortex start linked</vortexstartlinkedproto>
+	<vortexfinishlinkedproto>Vortex finish linked</vortexfinishlinkedproto>
+	<vortexlandingproto>Vortex landing</vortexlandingproto>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">VortexStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<liftsoundset>VortexLift</liftsoundset>
+	<dropsoundset>VortexDrop</dropsoundset>
+	<landsoundset>VortexLand</landsoundset>
+	<placement forceonmap="1">full</placement>
+	<abstractattacktargettype>LogicalTypeAffectedByVortex</abstractattacktargettype>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<unitaitype>Earthquake</unitaitype>
+	<recharges>2 </recharges>
+	<rechargetime>60 </rechargetime>
+</power>

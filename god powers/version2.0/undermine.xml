@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Undermine" type="Undermine" techname="Undermine">
+	<activetime>15.0</activetime>
+	<radius>5.0</radius>
+	<rangeindicatorprotoid radius="4" indicatorcount="2" speed="0.2">UI Range Indicator Norse SFX</rangeindicatorprotoid>
+	<attackintervaltime>0.25</attackintervaltime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">UndermineBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<playsbattlemusic></playsbattlemusic>
+	<placement forceonmap="1">full</placement>
+	<accuracy>1</accuracy>
+	<abstracttype decal="undermine ground decal long" sfx="Wall Long Destruction SFX" instantkill="1">Gate</abstracttype>
+	<abstracttype decal="undermine ground decal long" sfx="Wall Long Destruction SFX" instantkill="1">Wall Long</abstracttype>
+	<abstracttype decal="undermine ground decal long" sfx="Wall Long Destruction SFX" instantkill="1">Wall Medium</abstracttype>
+	<abstracttype decal="undermine ground decal short" sfx="Wall Short Destruction SFX" instantkill="1">Wall Short</abstracttype>
+	<abstracttype decal="undermine ground decal corner" sfx="Wall Connector Destruction SFX" instantkill="1">Wall Connector</abstracttype>
+	<abstracttype decal="undermine ground decal corner" sfx="Wall Connector Destruction SFX" instantkill="1">Tower</abstracttype>
+	<abstracttype decal="undermine ground decal corner" sfx="Undermine Building Destruction SFX">AbstractSettlement</abstracttype>
+	<abstracttype decal="undermine ground decal corner" sfx="Undermine Building Destruction SFX">AbstractFortress</abstracttype>
+	<abstracttype decal="undermine ground decal corner" sfx="Wall Connector Destruction SFX" instantkill="1">Tower Mirror</abstracttype>
+	<illegalprotounit>Settlement</illegalprotounit>
+	<attackproto>Invisible Ram</attackproto>
+	<fasteststriketime>1.0</fasteststriketime>
+	<camerashake duration="0.50" strength="0.25"></camerashake>
+	<icon>god power undermine icon</icon>
+	<usedicon>god power undermine icon done</usedicon>
+	<totaldamage>6000</totaldamage>
+	<maxwallsegments>50</maxwallsegments>
+	<destructionpathwidth>10.0f</destructionpathwidth>
+	<destructionpathdepth>30.0f</destructionpathdepth>
+</power>

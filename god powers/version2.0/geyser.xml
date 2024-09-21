@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Geyser" type="TempUnit" techname="Geyser">
+	<activetime>45.0</activetime>
+	<placement forceonmap="1">full</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">GeyserBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<rangeindicatorprotoid radius="16.0" indicatorcount="8" speed="0.2">UI Range Indicator Chinese SFX</rangeindicatorprotoid>
+	<createunit quantity="1" radius="4" delay="0.0">Geyser</createunit>
+	<createunit quantity="4" radius="8" delay="0.0">Geyser</createunit>
+	<createunit quantity="5" radius="12" delay="0.0">Geyser</createunit>
+	<camerashake duration="0.50" strength="0.25"></camerashake>
+	<icon>god power geyser icon</icon>
+	<usedicon>god power geyser icon done</usedicon>
+</power>

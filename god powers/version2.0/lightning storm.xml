@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="LightningStorm" type="lightning" techname="lightning storm">
+	<builduptime soundset="LightningBirth">1.3</builduptime>
+	<activetime>15.0</activetime>
+	<rangeindicatorprotoid radius="45.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<powerblocker>45.0f</powerblocker>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<unitaitype>HandUnitsAttack</unitaitype>
+	<radius>45.0</radius>
+	<accuracy>1</accuracy>
+	<strikesoundset>LightningStrike</strikesoundset>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">LightThunder</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<playsbattlemusic></playsbattlemusic>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.60</basedamagepercentunit>
+		<basedamagepercentvillager>0.50</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.50</basedamagepercentbuilding>
+		<minhpdamageunit>2200</minhpdamageunit>
+		<minhpdamagevillager>600</minhpdamagevillager>
+		<minhpdamagebuilding>300</minhpdamagebuilding>
+		<maxhpdamageunit>5500</maxhpdamageunit>
+		<maxhpdamagevillager>800</maxhpdamagevillager>
+		<maxhpdamagebuilding>800</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<strike>lightning strike</strike>
+	<sparks>lightning sparks</sparks>
+	<groundsparks>lightning sparks ground</groundsparks>
+	<scorch>lightning scorch</scorch>
+	<cloud>lightning cloud</cloud>
+	<rain>lightning rain</rain>
+	<fasteststriketime>0.10</fasteststriketime>
+	<sloweststriketime>0.2</sloweststriketime>
+	<strikeheight>25.0</strikeheight>
+	<strikeminoffset>2.0</strikeminoffset>
+	<strikemaxoffset>5.0</strikemaxoffset>
+	<cloudbuildupendtime>1.0</cloudbuildupendtime>
+	<cloudfadeoutstarttime>40.0</cloudfadeoutstarttime>
+	<cloudfadeoutendtime>43.0</cloudfadeoutendtime>
+	<rainbuildupstarttime>2.0</rainbuildupstarttime>
+	<rainbuildupendtime>7.0</rainbuildupendtime>
+	<rainfadeoutstarttime>37.0</rainfadeoutstarttime>
+	<rainfadeoutendtime>38.0</rainfadeoutendtime>
+	<abstractattacktargettype>unit</abstractattacktargettype>
+	<abstractattacktargettype>building</abstractattacktargettype>
+	<icon>god power lightning icon</icon>
+	<usedicon>god power lightning icon done</usedicon>
+</power>

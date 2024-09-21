@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SPCMeteor" type="meteor" techname="SPCMeteor">
+	<builduptime>1.0</builduptime>
+	<activetime>5.0</activetime>
+	<unitaitype>SPCmeteor</unitaitype>
+	<radius>32.0</radius>
+	<placement forceonmap="1">full</placement>
+	<meteor>SPCmeteor</meteor>
+	<splashsfx>Meteor Impact Water</splashsfx>
+	<landsfx>Meteor Impact Ground</landsfx>
+	<firststrikesoundset>MeteorBigHit</firststrikesoundset>
+	<strikesoundset>MeteorSmallHit</strikesoundset>
+	<firstapproachsound>MeteorApproach</firstapproachsound>
+	<approachsound>MeteorWhoosh</approachsound>
+	<fasteststriketime>15.0</fasteststriketime>
+	<sloweststriketime>15.0</sloweststriketime>
+	<abstractattacktargettype>LogicalTypeValidMeteorTarget</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>1.0</basedamagepercentunit>
+		<basedamagepercentvillager>1.0</basedamagepercentvillager>
+		<basedamagepercentbuilding>1.0</basedamagepercentbuilding>
+		<minhpdamageunit>100000</minhpdamageunit>
+		<minhpdamagevillager>100000</minhpdamagevillager>
+		<minhpdamagebuilding>100000</minhpdamagebuilding>
+		<maxhpdamageunit>10000000</maxhpdamageunit>
+		<maxhpdamagevillager>10000000</maxhpdamagevillager>
+		<maxhpdamagebuilding>10000000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>1.0</basedamagepercentunit>
+		<basedamagepercentvillager>1.0</basedamagepercentvillager>
+		<basedamagepercentbuilding>1.0</basedamagepercentbuilding>
+		<minhpdamageunit>100000</minhpdamageunit>
+		<minhpdamagevillager>100000</minhpdamagevillager>
+		<minhpdamagebuilding>100000</minhpdamagebuilding>
+		<maxhpdamageunit>10000000</maxhpdamageunit>
+		<maxhpdamagevillager>10000000</maxhpdamagevillager>
+		<maxhpdamagebuilding>10000000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<accuracy>1.00</accuracy>
+	<unitthrowchance>0.85</unitthrowchance>
+	<minthrowdistance>6.0</minthrowdistance>
+	<maxthrowdistance>10.0</maxthrowdistance>
+	<minthrowheight>1.0</minthrowheight>
+	<maxthrowheight>2.0</maxthrowheight>
+	<minthrowvelocity>10.0</minthrowvelocity>
+	<maxthrowvelocity>20.0</maxthrowvelocity>
+	<camerashake duration="0.50" strength="0.25"></camerashake>
+	<icon>god power meteor icon</icon>
+	<usedicon>god power meteor icon done</usedicon>
+</power>

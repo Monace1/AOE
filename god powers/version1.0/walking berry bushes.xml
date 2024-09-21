@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WalkingBerryBushes" type="swapunit" techname="Walking Berry Bushes">
+	<activetime>0.6</activetime>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.2">UI Range Indicator Norse SFX</rangeindicatorprotoid>
+	<radius>3.0</radius>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">WalkingWoodsBirth</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll" positional="">WalkingWoods</soundset>
+	<placement forceonmap="1" matchtype="Berry Bush">full</placement>
+	<powerplayerrelation>all</powerplayerrelation>
+	<overallchance>0.9</overallchance>
+	<abstracttype swapto="Walking Berry Bush">Berry Bush</abstracttype>
+	<swapdelay>0.5</swapdelay>
+	<convertunitstogodpowerplayer></convertunitstogodpowerplayer>
+	<convertusingminmax minswapamount="9" maxswapamount="10">Dummy</convertusingminmax>
+	<icon>god power walking woods icon</icon>
+	<usedicon>god power walking woods icon done</usedicon>
+</power>

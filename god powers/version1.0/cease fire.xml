@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="CeaseFire" type="Peace" techname="Cease Fire">
+	<activetime>60.0</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="All">CeaseBirth</soundset>
+	<soundset type="ExistSound" listenertype="All" playdelay="12.0">CeaseFireExist</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<tech>Ceasefire Effect</tech>
+	<placement forceonmap="1">skip</placement>
+	<sfxattachment>AbstractSettlement</sfxattachment>
+	<sfxprotoid>Stop Combat</sfxprotoid>
+	<icon>god power cease fire icon</icon>
+	<usedicon>god power cease fire icon done</usedicon>
+</power>

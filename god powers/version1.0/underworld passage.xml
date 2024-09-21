@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="UnderworldPassage" type="teleport" techname="Underworld Passage">
+	<activetime>-1</activetime>
+	<minimapeventtime>10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">UnderworldPassageStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll" usesecondlocation="1">UnderworldPassageStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="">UnderworldPassageExist</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="" usesecondlocation="1">UnderworldPassageExist</soundset>
+	<placement forceonmap="1">full</placement>
+	<dualpowermindistance>30.0</dualpowermindistance>
+	<placementprotounitid>Tunnel</placementprotounitid>
+	<inportal>Tunnel</inportal>
+	<outportal>Tunnel</outportal>
+	<icon>god power underworld passage icon</icon>
+	<usedicon>god power underworld passage icon done</usedicon>
+</power>

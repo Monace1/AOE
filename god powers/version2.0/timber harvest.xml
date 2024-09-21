@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="TimberHarvest" type="Prosperity" techname="Timber Harvest">
+	<activetime>50.0</activetime>
+	<placement>skip</placement>
+	<fasteststriketime>2.0</fasteststriketime>
+	<sloweststriketime>4.0</sloweststriketime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">TimberHarvestBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<largesfxprotoid>Timberharvest</largesfxprotoid>
+	<smallsfxprotoid>Timberharvest</smallsfxprotoid>
+	<gatherrate rate="1.8">wood</gatherrate>
+	<abstracttype>WoodDropsite</abstracttype>
+	<icon>god power timber icon</icon>
+	<usedicon>god power timber icon done</usedicon>
+</power>

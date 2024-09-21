@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="DwarvenMine" type="DwarvenMines" techname="create gold">
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Gold Mine Dwarven</createunit>
+	<placement forceonmap="1" losprotounit="Gold Mine Dwarven">full</placement>
+	<placementprotounitid>Gold Mine Dwarven</placementprotounitid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<minimapeventtime sendalertto="none">0.0f</minimapeventtime>
+	<ageinfo>
+		<age>Archaic Age</age>
+		<resource amount="500.0">gold</resource>
+	</ageinfo>
+	<ageinfo>
+		<age>Classical Age</age>
+		<resource amount="1000.0">gold</resource>
+	</ageinfo>
+	<ageinfo>
+		<age>Heroic Age</age>
+		<resource amount="3000.0">gold</resource>
+	</ageinfo>
+	<ageinfo>
+		<age>Mythic Age</age>
+		<resource amount="6000.0">gold</resource>
+	</ageinfo>
+	<icon>god power create gold icon</icon>
+	<usedicon>god power create gold icon done</usedicon>
+</power>

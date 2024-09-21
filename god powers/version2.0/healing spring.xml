@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="HealingSpring" type="healingspring" techname="healing spring">
+	<placement forceonmap="1">full</placement>
+	<placementprotounitid>Healing Spring Object</placementprotounitid>
+	<powerplayerrelation>ally</powerplayerrelation>
+	<expandcheckplacementhull></expandcheckplacementhull>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">HealingSpring</soundset>
+	<activetime>-1</activetime>
+	<proto>Healing Spring Object</proto>
+	<protosfx>Healing SFX</protosfx>
+	<rate>0.40</rate>
+	<healtype>LogicalTypeAffectedByHealingSpring</healtype>
+	<range>22.0</range>
+	<scaninterval>1.0</scaninterval>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>god power healing spring icon</icon>
+	<usedicon>god power healing spring icon done</usedicon>
+</power>

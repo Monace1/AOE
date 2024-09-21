@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Carnivora" type="Carnivora" techname="audrey">
+	<activetime>-1</activetime>
+	<unitproto>Audrey</unitproto>
+	<unitbaseproto>Audrey Base</unitbaseproto>
+	<unitwaterproto>Audrey Water</unitwaterproto>
+	<unitwaterbaseproto>Audrey Water Base</unitwaterbaseproto>
+	<placement forceonmap="1">full</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">CarnivoraBirth</soundset>
+	<recharges>2 </recharges>
+	<rechargetime>120 </rechargetime>
+</power>

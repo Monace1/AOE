@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SeedofGaia" type="swapunit" techname="Seed of Gaia">
+	<activetime>0.1</activetime>
+	<radius>1.0</radius>
+	<placement forceonmap="1" matchtype="Gaia Pool" ally="">unit</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">GaiaForest</soundset>
+	<overallchance>1.0</overallchance>
+	<abstracttype swapto="Summoning Tree 2">Gaia Pool</abstracttype>
+	<sfx>Osiris SFX</sfx>
+	<mutate></mutate>
+	<playbirthaftermutate></playbirthaftermutate>
+	<unittarget></unittarget>
+</power>

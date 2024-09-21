@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="SonofOsiris" type="swapunit" techname="Son of Osiris">
+	<activetime>0.1</activetime>
+	<radius>1.0</radius>
+	<placement forceonmap="1" matchtype="AbstractPharaoh" ally="">unit</placement>
+	<powerplayerrelation>player</powerplayerrelation>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">SOOPBirth</soundset>
+	<overallchance>1.0</overallchance>
+	<abstracttype swapto="Pharaoh of Osiris">AbstractPharaoh</abstracttype>
+	<sfx>Osiris SFX</sfx>
+	<mutate></mutate>
+	<unittarget></unittarget>
+	<icon>god power son of osiris icon</icon>
+	<usedicon>god power son of osiris icon done</usedicon>
+</power>

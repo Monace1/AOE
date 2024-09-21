@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Sentinel" type="TempUnit" techname="sentinel">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" matchtype="AbstractSettlement" ally="" allowgaia="" usetargetunitpositionforplacement="">unit</placement>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<abstractplacementtargettype>Settlement Level 1</abstractplacementtargettype>
+	<abstractplacementtargettype>Citadel Center</abstractplacementtargettype>
+	<attachproto>Sentinel Base</attachproto>
+	<createunit quantity="4" minradius="16" maxradius="20" pattern="symmetric" norotate="" delay="0.0">Sentinel Main</createunit>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
+	<icon>god power sentinel icon</icon>
+	<usedicon>god power sentinel icon done</usedicon>
+</power>

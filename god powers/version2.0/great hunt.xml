@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="GreatHunt" type="clone" techname="Great Hunt">
+	<activetime>3.0</activetime>
+	<radius>10.0</radius>
+	<rangeindicatorprotoid radius="9" indicatorcount="4" speed="0.2">UI Range Indicator Norse SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">GreatHunt</soundset>
+	<placement forceonmap="1">full</placement>
+	<overallchance>1</overallchance>
+	<abstracttype>Herdable</abstracttype>
+	<abstracttype>Huntable</abstracttype>
+	<sfx>Clone SFX</sfx>
+	<maxfood>750.0</maxfood>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>god power great hunt icon</icon>
+	<usedicon>god power great hunt icon done</usedicon>
+</power>

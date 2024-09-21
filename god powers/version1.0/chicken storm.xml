@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="ChickenStorm" type="meteor" techname="chicken storm">
+	<builduptime>3.0</builduptime>
+	<activetime>10.0</activetime>
+	<unitaitype>Meteor</unitaitype>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="5" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<radius>25.0</radius>
+	<placement forceonmap="1">full</placement>
+	<meteor>chicken exploding</meteor>
+	<splashsfx>Splash</splashsfx>
+	<landsfx>Lightning Sparks</landsfx>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<firststrikesoundset>MeteorBigHit</firststrikesoundset>
+	<strikesoundset>MeteorSmallHit</strikesoundset>
+	<firstapproachsound>MeteorApproach</firstapproachsound>
+	<approachsound>MeteorWhoosh</approachsound>
+	<fasteststriketime>0.03</fasteststriketime>
+	<sloweststriketime>0.10</sloweststriketime>
+	<playsbattlemusic></playsbattlemusic>
+	<abstractattacktargettype>LogicalTypeValidMeteorTarget</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.25</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.75</basedamagepercentbuilding>
+		<minhpdamageunit>1200</minhpdamageunit>
+		<minhpdamagevillager>450</minhpdamagevillager>
+		<minhpdamagebuilding>5000</minhpdamagebuilding>
+		<maxhpdamageunit>4800</maxhpdamageunit>
+		<maxhpdamagevillager>1000</maxhpdamagevillager>
+		<maxhpdamagebuilding>9000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.25</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.25</basedamagepercentbuilding>
+		<minhpdamageunit>300</minhpdamageunit>
+		<minhpdamagevillager>300</minhpdamagevillager>
+		<minhpdamagebuilding>600</minhpdamagebuilding>
+		<maxhpdamageunit>600</maxhpdamageunit>
+		<maxhpdamagevillager>600</maxhpdamagevillager>
+		<maxhpdamagebuilding>1200</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<accuracy>0.85</accuracy>
+	<unitthrowchance>0.85</unitthrowchance>
+	<minthrowdistance>6.0</minthrowdistance>
+	<maxthrowdistance>10.0</maxthrowdistance>
+	<minthrowheight>1.0</minthrowheight>
+	<maxthrowheight>2.0</maxthrowheight>
+	<minthrowvelocity>10.0</minthrowvelocity>
+	<maxthrowvelocity>20.0</maxthrowvelocity>
+	<camerashake duration="0.50" strength="0.25"></camerashake>
+	<powerblocker>30.0f</powerblocker>
+	<icon>god power meteor icon</icon>
+	<usedicon>god power meteor icon done</usedicon>
+</power>

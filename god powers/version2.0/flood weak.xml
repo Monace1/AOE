@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="FloodWeak" type="Earthquake" techname="flood weak">
+	<activetime>10.0</activetime>
+	<radius>60.0</radius>
+	<rangeindicatorprotoid radius="30.0" indicatorcount="10" speed="0.2">UI Range Indicator Chinese SFX</rangeindicatorprotoid>
+	<rumbleheight>0.125</rumbleheight>
+	<rumblewidth>5.0</rumblewidth>
+	<rumblespeed>5.0</rumblespeed>
+	<rumblefadetime>2.0</rumblefadetime>
+	<attackproto>Flood</attackproto>
+	<attackinterval>0.25</attackinterval>
+	<attackunitaccuracy>0.25</attackunitaccuracy>
+	<attackbuildingaccuracy>0.75</attackbuildingaccuracy>
+	<playsbattlemusic></playsbattlemusic>
+	<attacktreeaccuracy>0.25</attacktreeaccuracy>
+	<abstractattacktargettype>LogicalTypeEarthquakeAttack</abstractattacktargettype>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.20</basedamagepercentunit>
+		<basedamagepercentvillager>0.20</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.8</basedamagepercentbuilding>
+		<minhpdamageunit>100</minhpdamageunit>
+		<minhpdamagevillager>35</minhpdamagevillager>
+		<minhpdamagebuilding>100</minhpdamagebuilding>
+		<maxhpdamageunit>200</maxhpdamageunit>
+		<maxhpdamagevillager>50</maxhpdamagevillager>
+		<maxhpdamagebuilding>1450</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.4</basedamagepercentunit>
+		<basedamagepercentvillager>0.25</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.5</basedamagepercentbuilding>
+		<minhpdamageunit>600</minhpdamageunit>
+		<minhpdamagevillager>180</minhpdamagevillager>
+		<minhpdamagebuilding>1200</minhpdamagebuilding>
+		<maxhpdamageunit>1200</maxhpdamageunit>
+		<maxhpdamagevillager>360</maxhpdamagevillager>
+		<maxhpdamagebuilding>2400</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<dustsmallproto>Dust Small</dustsmallproto>
+	<dustmediumproto>Dust Medium</dustmediumproto>
+	<dustlargeproto>Dust Large</dustlargeproto>
+	<powerblocker>30.0f</powerblocker>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" loop="">EarthquakeExist</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<camerashake duration="0.50" strength="0.125"></camerashake>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<icon>god power flood icon</icon>
+	<usedicon>god power flood icon done</usedicon>
+	<unitaitype>Earthquake</unitaitype>
+		<hideonactivegplist></hideonactivegplist>
+	<messagealertplayerrelation>player</messagealertplayerrelation>
+</power>

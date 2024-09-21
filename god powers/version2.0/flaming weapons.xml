@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="FlamingWeapons" type="flamingweapons" techname="flaming weapons">
+	<placement forceonmap="1">skip</placement>
+	<activetime>60</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">FlamingWeapons</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<abstractattacktargettype>LogicalTypeValidFlamingWeaponsTarget</abstractattacktargettype>
+	<powerplayerrelation>player</powerplayerrelation>
+	<playsbattlemusic></playsbattlemusic>
+	<tech>Flaming Weapons Active</tech>
+	<particlesfxnode>
+		<unittype>Ulfsark</unittype>
+		<sfx>SFX A Flaming Axe</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Raiding Cavalry</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Throwing Axeman</unittype>
+		<sfx>SFX A Flaming Axe</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Huskarl</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Jarl</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Hero Norse</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Hero Ragnorok</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Portable Ram</unittype>
+		<sfx>SFX A Flaming Portable Ram</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Hoplite</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Hypaspist</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Hippikon</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Prodromos</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Hero Greek Theseus</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Spearman</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Axeman</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Camelry</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>War Elephant</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Mercenary</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Mercenary Cavalry</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Arkantos</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Amanra</unittype>
+		<sfx>SFX A Flaming Axe</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Ajax</unittype>
+		<sfx>SFX A Flaming Sword</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Reginleif</unittype>
+		<sfx>SFX A Flaming Spear</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Arrow Flaming</unittype>
+		<sfx>SFX A Flaming Arrow</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Sling Stone</unittype>
+		<sfx>SFX A Flaming Sling Stone</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Axe</unittype>
+		<sfx>SFX A Flaming Axe</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Petrobolos Shot</unittype>
+		<sfx>SFX A Flaming Petrobolos Shot</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Catapult Shot</unittype>
+		<sfx>SFX A Flaming Catapult Shot</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Ballista Shot</unittype>
+		<sfx>SFX A Flaming Ballista Bolt</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Ramming Ship Greek</unittype>
+		<sfx>SFX A Flaming Ram Ship</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Ramming Ship Norse</unittype>
+		<sfx>SFX A Flaming Ram Ship</sfx>
+	</particlesfxnode>
+	<particlesfxnode>
+		<unittype>Ramming Ship Egyptian</unittype>
+		<sfx>SFX A Flaming Ram Ship</sfx>
+	</particlesfxnode>
+</power>

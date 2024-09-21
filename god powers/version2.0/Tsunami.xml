@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Tsunami" type="Tsunami" techname="Tsunami">
+	<builduptime soundset="TsunamiBirth">0.1</builduptime>
+	<activetime>20.0</activetime>
+	<minimapeventtime>60.0</minimapeventtime>
+	<placementprotounitid>Tsunami Range Indicator</placementprotounitid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" loop="1" positional="1">TsunamiExist</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<playsbattlemusic></playsbattlemusic>
+	<placement forceonmap="1">full</placement>
+	<radius>10.0</radius>
+	<powerblocker>20.0f</powerblocker>
+	<gpdamagemodel>
+		<playerrelation>enemy</playerrelation>
+		<basedamagepercentunit>0.80</basedamagepercentunit>
+		<basedamagepercentvillager>0.30</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.80</basedamagepercentbuilding>
+		<minhpdamageunit>1500</minhpdamageunit>
+		<minhpdamagevillager>600</minhpdamagevillager>
+		<minhpdamagebuilding>8000</minhpdamagebuilding>
+		<maxhpdamageunit>3000</maxhpdamageunit>
+		<maxhpdamagevillager>1200</maxhpdamagevillager>
+		<maxhpdamagebuilding>9000</maxhpdamagebuilding>
+	</gpdamagemodel>
+	<gpdamagemodel>
+		<playerrelation>ally</playerrelation>
+		<basedamagepercentunit>0.25</basedamagepercentunit>
+		<basedamagepercentvillager>0.5</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.5</basedamagepercentbuilding>
+		<minhpdamageunit>300</minhpdamageunit>
+		<minhpdamagevillager>300</minhpdamagevillager>
+		<minhpdamagebuilding>1200</minhpdamagebuilding>
+		<maxhpdamageunit>900</maxhpdamageunit>
+		<maxhpdamagevillager>600</maxhpdamagevillager>
+		<maxhpdamagebuilding>2400</maxhpdamagebuilding>
+	</gpdamagemodel>
+	
+	<!--Tsunamis are made up on multiple children spaced out-->
+	<childfx>Tsunami</childfx>
+	<numchildren>4</numchildren>
+	<childspacing>6.0</childspacing> <!--distance between each child. Damage radius is based on this-->
+
+	<!--General Characteristics of tsunami-->
+	<movementspeed>9.6</movementspeed>
+	<height>6.0</height>
+	<debris>Tornado Debris</debris>
+	<!--<dirttexture>SFX A Tornado Dirt</dirttexture>
+	<snowtexture>SFX A Tornado Snow</snowtexture>
+	<watertexture>SFX A Tornado Water</watertexture>
+	<dirttexture>SFX A Tornado Dirt</dirttexture>
+	<snowtexture>SFX A Tornado Snow</snowtexture>
+	<watertexture>SFX A Tornado Water</watertexture>-->
+	<damagetype>LogicalTypeTornadoAttack</damagetype>
+	<scantime>0.5</scantime>
+	<attackgaiaaccuracy>0.5</attackgaiaaccuracy>
+	<minthrowdistance>9.0</minthrowdistance>
+	<maxthrowdistance>15.0</maxthrowdistance>
+	<minthrowheight>4.0</minthrowheight>
+	<maxthrowheight>5.0</maxthrowheight>
+	<minthrowvelocity>10.0</minthrowvelocity>
+	<maxthrowvelocity>20.0</maxthrowvelocity>
+	<dontthrow>Building</dontthrow>
+	<dontthrow>Wood</dontthrow>
+	<dontthrow>Gold</dontthrow>
+	<dontthrow>Fish</dontthrow>
+	<cantsuck>AbstractSettlement</cantsuck>
+	<cantsuck>Farm</cantsuck>
+	<cantsuck>Building</cantsuck>
+	<cantsuck>Gold</cantsuck>
+	<cantsuck>Wave</cantsuck>
+	<numberobjsperbuilding>2</numberobjsperbuilding>
+	<xzvelocity>10.5</xzvelocity>
+	<yvelocity>3.0</yvelocity>
+	<angularvelocity>43.14</angularvelocity>
+	<terrainlogic>
+		<terrainuiclass>Snow</terrainuiclass>
+		<texture>SFX A Tornado Snow</texture>
+	</terrainlogic>
+	<icon>god power flood icon</icon>
+	<usedicon>god power flood icon done</usedicon>
+</power>

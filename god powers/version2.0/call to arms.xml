@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="CallToArms" type="calltoarms" techname="Call To Arms">
+	<activetime>-1</activetime>
+	<radius>11.0</radius>
+	<rangeindicatorprotoid radius="10" indicatorcount="5" speed="0.2">UI Range Indicator Chinese SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">HeroBirth</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">CallToArmsCreate</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">full</placement>
+	<abstractplacementtargettype>LogicalTypeAffectedByChaos</abstractplacementtargettype>
+	<effectproto>Hero Birth</effectproto>
+	<convertusingminmax minswapamount="5" maxswapamount="5">normal</convertusingminmax>
+	<convertusingminmax minswapamount="1" maxswapamount="1">myth</convertusingminmax>
+	<convertusingminmax minswapamount="0" maxswapamount="0">villager</convertusingminmax>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+</power>

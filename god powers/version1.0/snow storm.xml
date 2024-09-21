@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Fimbulwinter" type="SnowStorm" techname="Snow Storm">
+	<activetime>30.0</activetime>
+	<builduptime>6.0</builduptime>
+	<powerblocker>-1</powerblocker>
+	<shutdowntime>3.0</shutdowntime>
+	<fasteststriketime>5.0</fasteststriketime>
+	<sloweststriketime>10.0</sloweststriketime>
+	<startsoundset>GodPowerStart</startsoundset>
+	<endsoundset>GodPowerEnd</endsoundset>
+	<snowstormsound>Snowstorm</snowstormsound>
+	<placement forceonmap="1">full</placement>
+	<lightset>Fimbulwinter</lightset>
+	<snowdrift>
+		<type>AbstractBarracks</type>
+		<snow>Snow Drift Barracks</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>AbstractArcheryRange</type>
+		<snow>Snow Drift Archery</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>AbstractSettlement</type>
+		<snow>Snow Drift Settlements</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>AbstractFortress</type>
+		<snow>Snow Drift Settlements</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>AbstractStable</type>
+		<snow>Snow Drift Stable</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>Tower</type>
+		<snow>Snow Drift Tower</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>Outpost</type>
+		<snow>Snow Drift Tower</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>Lighthouse</type>
+		<snow>Snow Drift Tower</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>Siege Camp</type>
+		<snow>Snow Drift Siege</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>Shrine</type>
+		<snow>Snow Drift Minor Temple</snow>
+	</snowdrift>
+	<snowdrift>
+		<type>Temple</type>
+		<snow>Snow Drift Major Temple</snow>
+	</snowdrift>
+	<wolfproto>Fimbulwinter Wolf</wolfproto>
+	<wolfsfx>Fimbulwinter SFX</wolfsfx>
+	<packsize>9</packsize>
+	<packradius>14</packradius>
+	<wolfsource>AbstractSettlement</wolfsource>
+	<packwanderdistance>25</packwanderdistance>
+	<maxpackwanderdistance>35</maxpackwanderdistance>
+	<minradius>15</minradius>
+	<maxradius>40</maxradius>
+	<packrescan>5.0</packrescan>
+	<leadersearchradius>12.0f</leadersearchradius>
+	<wolftargettype>Unit</wolftargettype>
+	<abstractattacktargettype>LogicalTypeFimbulWinterTCEvalType</abstractattacktargettype>
+	<tcevalradius>20.0</tcevalradius>
+	<maxaffectedtccount>4</maxaffectedtccount>
+	<icon>god power fimbulwinter icon</icon>
+	<usedicon>god power fimbulwinter icon done</usedicon>
+</power>

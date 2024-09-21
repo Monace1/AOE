@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Journey" type="flamingweapons" techname="journey">
+	<placement forceonmap="1">skip</placement>
+	<activetime>60</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">JourneyBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<abstractattacktargettype>LogicalTypeValidFlamingWeaponsTarget</abstractattacktargettype>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Journey Active</tech>
+	<particlesfxnode>
+		<unittype>Unit</unittype>
+		<sfx>Shockwave stun effect</sfx>
+	</particlesfxnode>
+</power>

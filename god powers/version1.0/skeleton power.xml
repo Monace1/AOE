@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Ancestors" type="TempUnit" techname="skeleton power">
+	<activetime>60.0</activetime>
+	<placement forceonmap="1">all</placement>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">AncestorsBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<rangeindicatorprotoid radius="16.0" indicatorcount="8" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<createunit quantity="1" radius="6" delay="0.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="8" delay="0.5" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="10" delay="2.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="6" delay="3.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="8" delay="4.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="10" delay="5.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="6" delay="6.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="8" delay="7.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="10" delay="8.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="6" delay="9.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="8" delay="10.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="10" delay="11.0" waterprotoid="Ghost Ship">minion</createunit>
+	<createunit quantity="1" radius="12" delay="13.0" waterprotoid="Ghost Ship">minion</createunit>
+	<icon>god power ancestors icon</icon>
+	<usedicon>god power ancestors icon done</usedicon>
+</power>

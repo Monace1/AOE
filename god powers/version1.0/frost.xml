@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Frost" type="frost" techname="frost">
+	<activetime>50.0</activetime>
+	<unitaitype>HandCombative</unitaitype>
+	<rangeindicatorprotoid radius="20.0" indicatorcount="10" speed="0.2">UI Range Indicator Norse SFX</rangeindicatorprotoid>
+	<radius>24.0</radius>
+	<accuracy>0.9</accuracy>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">IceStereo</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<storm>ice sheet</storm>
+	<drift>frost drift</drift>
+	<abstractattacktargettype>LogicalTypeValidFrostTarget</abstractattacktargettype>
+	<fastestfreezetime>0.5</fastestfreezetime>
+	<slowestfreezetime>1.0</slowestfreezetime>
+	<freezeexpansiontime>3.0</freezeexpansiontime>
+	<freezeholdtime>45.0</freezeholdtime>
+	<freezetransitiontime>1.5</freezetransitiontime>
+	<fastestdrifttime>4.0</fastestdrifttime>
+	<slowestdrifttime>8.0</slowestdrifttime>
+	<armor>
+		<abstracttype>Unit</abstracttype>
+		<armortype percent="-0.99">Hack</armortype>
+		<armortype percent="-0.99">Pierce</armortype>
+		<armortype percent="-0.99">Crush</armortype>
+	</armor>
+	<icon>god power frost icon</icon>
+	<usedicon>god power frost icon done</usedicon>
+</power>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Uproot" type="Uproot" techname="Uproot">
+	<activetime>-1</activetime>
+	<placement forceonmap="1" enemy="">free</placement>
+	<radius>30.0f</radius>
+	<reveallos radius="30.0">Revealer To Player</reveallos>
+	<rangeindicatorprotoid radius="30.0" indicatorcount="10" speed="0.2">UI Range Indicator Chinese SFX</rangeindicatorprotoid>
+	<rescaninterval>5.0f</rescaninterval>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">UprootBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<abstracttype>
+		<type>Tower</type>
+		<spawntype>Uproot 1x1</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>House</type>
+		<spawntype>Uproot 2x2</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Academy</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Barracks</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Barracks Atlantean</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Barracks Chinese</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Archery Range</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Counter Building</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Stable</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Stable Chinese</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Dock</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Siege Camp</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Longhouse</type>
+		<spawntype>Uproot 4x4</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Temple</type>
+		<spawntype>Uproot 5x5</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>AbstractFortress</type>
+		<spawntype>Uproot 5x5</spawntype>
+	</abstracttype>
+	<icon>god power uproot icon</icon>
+	<usedicon>god power uproot icon done</usedicon>
+</power>

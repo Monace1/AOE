@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Lure" type="animalmagnet" techname="animal magnetism">
+	<placement forceonmap="1" losprotounit="Animal Attractor">full</placement>
+	<placementprotounitid>Animal Attractor</placementprotounitid>
+	<activetime>-1</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="">AnimalMagnet</soundset>
+	<attractor>Animal Attractor</attractor>
+	<minrange>5.0</minrange>
+	<maxrange>150.0</maxrange>
+	<attractrate>24.0</attractrate>
+	<variance>0.15</variance>
+	<maxfood>10000.0</maxfood>
+	<attractiondistancetocountagainstfoodcap>40.0f</attractiondistancetocountagainstfoodcap>
+	<attracttype>Herdable</attracttype>
+	<attracttype>Huntable</attracttype>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<icon>god power animal magnet icon</icon>
+	<usedicon>god power animal magnet icon done</usedicon>
+</power>

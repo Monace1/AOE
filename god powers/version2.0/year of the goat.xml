@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--> NEW LINE AFTER CODING CHANGE</!-->
+<power name="YearOfTheGoat" type="TempUnitAge" techname="Year of the Goat">
+	<activetime>-1</activetime>
+	<rangeindicatorprotoid radius="8.0" indicatorcount="5" speed="0.2">UI Range Indicator Chinese SFX</rangeindicatorprotoid>
+	<placement forceonmap="1">full</placement>
+	<icon>god power goats icon</icon>
+	<usedicon>god power goats icon done</usedicon>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">Find</soundset>
+	<ageinfo>
+		<age>Archaic Age</age>
+		<createunit quantity="3" radius="5" delay="0.0">Goat Chinese</createunit>
+	</ageinfo>
+	<ageinfo>
+		<age>Classical Age</age>
+		<createunit quantity="5" radius="5" delay="0.0">Goat Chinese</createunit>
+	</ageinfo>
+	<ageinfo>
+		<age>Heroic Age</age>
+		<createunit quantity="8" radius="5" delay="0.0">Goat Chinese</createunit>
+	</ageinfo>
+	<ageinfo>
+		<age>Mythic Age</age>
+		<createunit quantity="12" radius="7" delay="0.0">Goat Chinese</createunit>
+	</ageinfo>
+	<ageinfo>
+		<age>Titan Age</age>
+		<createunit quantity="15" radius="9" delay="0.0">Goat Chinese</createunit>
+	</ageinfo>
+</power>

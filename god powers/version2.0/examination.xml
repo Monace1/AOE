@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Examination" type="flamingweapons" techname="Examination">
+	<placement>skip</placement>
+	<activetime>60</activetime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<powerplayerrelation>player</powerplayerrelation>
+	<tech>Examination Active</tech>
+	<particlesfxnode>
+		<unittype>Building</unittype>
+		<sfx>Imperial Examination</sfx>
+	</particlesfxnode>
+	<abstracttype>
+		<type>Building</type>
+		<sfxtype1>Imperial Examination</sfxtype1>
+	</abstracttype>
+</power>

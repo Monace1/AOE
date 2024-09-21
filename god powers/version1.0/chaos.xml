@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Chaos" type="chaos" techname="Chaos">
+	<activetime>-1</activetime>
+	<radius>20.0</radius>
+	<rangeindicatorprotoid radius="18.0" indicatorcount="8" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="Caster">Chaos</soundset>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<placement forceonmap="1">full</placement>
+	<convertusingminmax minswapamount="3" maxswapamount="4">normal</convertusingminmax>
+	<convertusingminmax minswapamount="0" maxswapamount="1">myth</convertusingminmax>
+	<powerplayerrelation>enemy</powerplayerrelation>
+	<swapdelay>0.5</swapdelay>
+	<swapenemyonly></swapenemyonly>
+	<attachproto>Chaos effect</attachproto>
+	<abstractattacktargettype>LogicalTypeAffectedByChaos</abstractattacktargettype>
+	<recharges>1 </recharges>
+	<rechargetime>240 </rechargetime>
+</power>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Artifacts" type="ShowUnit" techname="artifacts">
+	<ActiveTime>30.0</ActiveTime>
+	<Placement forceOnMap="1">skip</Placement>
+	<UnitType>Herdable</UnitType>
+	<ShowProto>Revealer to Player</ShowProto>
+	<StartSoundSet>GodPowerStart</StartSoundSet>
+	<EndSoundSet>GodPowerEnd</EndSoundSet>
+	<Pattern>ExpandingRadius</Pattern>
+	<PatternStartSize>50</PatternStartSize>
+	<PatternGrowthSize>9</PatternGrowthSize>
+	<PatternGrowthInterval>1</PatternGrowthInterval>
+</power>

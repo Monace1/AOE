@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="WellOfUrd" type="teleport" techname="Well of Urd">
+	<activetime>-1</activetime>
+	<minimapeventtime sendalertto="none">10.0</minimapeventtime>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">UnderworldPassageStart</soundset>
+	<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="">UnderworldPassageExist</soundset>
+	<placement forceonmap="1">full</placement>
+	<dualpowermindistance>30.0</dualpowermindistance>
+	<placementprotounitid>Well of Urd</placementprotounitid>
+	<inportal>Well of Urd</inportal>
+	<outportal>Well of Urd</outportal>
+	<icon>god power underworld passage icon</icon>
+	<usedicon>god power underworld passage icon done</usedicon>
+</power>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="LocustSwarm" type="locust" techname="locust swarm">
+	<activetime>28.0</activetime>
+	<radius>8.0</radius>
+	<rangeindicatorprotoid radius="8.0" indicatorcount="3" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
+	<abstractattacktargettype>LogicalTypeValidLocustSwarmTarget</abstractattacktargettype>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<swarm>locust swarm</swarm>
+	<swarmcount>4</swarmcount>
+	<speed>3.0</speed>
+	<icon>god power locust swarm icon</icon>
+	<usedicon>god power locust swarm icon done</usedicon>
+</power>

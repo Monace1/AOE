@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Traitors" type="traitors" techname="traitors">
+	<placement forceonmap="1" enemy="" matchtype="LogicalTypeValidTraitorsTarget">unit</placement>
+	<activetime>0.10</activetime>
+	<damageonconvert>0.15 </damageonconvert>
+	<soundset type="StartSound" listenertype="Caster">Traitor</soundset>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<minimapeventtime sendalertto="all">10.0</minimapeventtime>
+	<traitorseffect>Traitors effect</traitorseffect>
+	<recharges>2 </recharges>
+	<rechargetime>180 </rechargetime>
+</power>

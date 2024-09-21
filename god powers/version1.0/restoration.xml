@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Restoration" type="healing" techname="Restoration">
+	<activetime>8</activetime>
+	<radius>50.0f</radius>
+	<rangeindicatorprotoid radius="25.0" indicatorcount="10" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAll">RestorationBirth</soundset>
+	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
+	<placement forceonmap="1">free</placement>
+	<healtype>LogicalTypeAffectedByRestoration</healtype>
+	<healsfx>Healing SFX</healsfx>
+	<healspeed>30.0</healspeed>
+	<areasfx>Healing Area SFX</areasfx>
+	<scaninterval>1.0</scaninterval>
+	<icon>god power restoration icon</icon>
+	<usedicon>god power restoration icon done</usedicon>
+</power>

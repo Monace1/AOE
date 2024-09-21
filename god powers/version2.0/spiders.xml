@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Spiders" type="spiders" techname="spiders">
+	<activetime>-1</activetime>
+	<placement forceonmap="1">full</placement>
+	<radius>10.0</radius>
+	<rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.2">UI Range Indicator Atlantean SFX</rangeindicatorprotoid>
+	<numbertocreate>4 </numbertocreate>
+	<hatchtime>5.0 </hatchtime>
+	<hatchintervalmin>0.2 </hatchintervalmin>
+	<hatchintervalmax>0.7 </hatchintervalmax>
+	<hatchprobability>0.001 </hatchprobability>
+	<spiderproto>Spider</spiderproto>
+	<spidereggproto>Spider Egg</spidereggproto>
+	<spiderdoorproto>Spider Door</spiderdoorproto>
+	<spiderwarnproto>Spider Warn</spiderwarnproto>
+	<initialdelay>0.5 </initialdelay>
+	<warntime>0.5 </warntime>
+	<abstractattacktargettype>LogicalTypeValidSpiderTarget</abstractattacktargettype>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="IfOnScreenAlly">Spiders</soundset>
+	<soundset type="EndSound" listenertype="Ally">GodPowerEnd</soundset>
+	<humandeathsoundset>SpiderMaleDeath</humandeathsoundset>
+	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
+	<messagealertplayerrelation>ally</messagealertplayerrelation>
+	<recharges>2</recharges>
+	<rechargetime>150</rechargetime>
+</power>
